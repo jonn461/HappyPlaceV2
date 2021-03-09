@@ -15,7 +15,8 @@
             </nav>
         </header>
         <main>
-            <
+            <div class="center">
+            </div>
         </main>
     </body>
 </html>
