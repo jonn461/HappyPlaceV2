@@ -1,3 +1,6 @@
+<?php
+    include_once('include/function.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -11,8 +14,8 @@
         <div id="title"><h1>Happy Place</h1></div>
         <header>
             <nav>
-                <li><a href="">LOGIN</a></li>
-                <li><a href="">SIGN UP</a></li>
+                <li><a href="login.php">LOGIN</a></li>
+                <li><a href="signup.php">SIGN UP</a></li>
             </nav>
         </header>
         <main>

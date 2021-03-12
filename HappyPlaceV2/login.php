@@ -10,11 +10,13 @@
     <title>Login</title>
 </head>
 <body>
+    <div id="title"><h1>Happy Place</h1></div>
     <fieldset class="center">
         <form>
+            
             <label><input type="text" name="email" value="$email"></label>
             <label><input type="password" name="password"></label>
-            <label><input type="submit" name="login"></label>
+            <label><input type="submit" name="login" value="Sign in"></label>
         </form>
     </fieldset>
 </body>
