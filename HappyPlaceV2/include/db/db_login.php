@@ -3,6 +3,6 @@
     $host = 'localhost';
     $user = 'root';
     $password = '';
-    $database = 'project_happy_place';
-    $dsn = 'mysql:host=' . $host . ';dbname=' . $database;
+    $database = 'happyplacev2';
+    $dsn = 'mysql:host='.$host.';dbname='.$database;
     ?>

@@ -1,0 +1,127 @@
+/* ***************|LAY-OUT|*************** */
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.center{
+    height: fit-content;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.space{
+    margin: 15px;
+}
+/* ***************|TITLE|*************** */
+#title{
+    display: flex;
+    justify-content: center;
+}
+
+/* ***************|FORM|*************** */
+label{
+    display: flex;
+    justify-content: space-between;
+}
+.labelText{
+    margin: 2px;
+    border: 5px;
+    width: 20%;
+    
+}
+input[type=text] {
+    margin: 2px;
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    width: 70%;
+}
+input[type=password] {
+    margin: 2px;
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    width: 70%;
+}
+input[type=email] {
+    margin: 2px;
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    width: 70%;
+}
+
+input[type=text]:focus {
+    border-color:#333;
+}
+input[type=password]:focus {
+    border-color:#333;
+}
+input[type=email]:focus {
+    border-color:#333;
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    width: 100px;
+}
+#button{
+    margin: 0px auto 0px auto;
+}
+.note{
+    margin: 0px auto 0px auto;
+
+}
+
+/* ***************|ALERT|*************** */
+.error{
+    color: red;
+    text-align: center;
+    font-weight: 600;
+}
+/* ***************|MEDIA QUERY|*************** */
+@media only screen and (max-width: 1040px) {
+    .center{
+        height: fit-content;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media only screen and (max-width: 724px) {
+    .center{
+        height: fit-content;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    input[type=text] {
+        width: 70%;
+    }
+    input[type=password] {
+        width: 70%;
+    }
+    input[type=email] {
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .center{
+        height: fit-content;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
