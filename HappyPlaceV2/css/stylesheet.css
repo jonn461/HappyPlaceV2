@@ -9,7 +9,7 @@
 }
 .center{
     height: fit-content;
-    width: 25%;
+    width: 400px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -90,38 +90,4 @@ input[type=submit] {
     color: red;
     text-align: center;
     font-weight: 600;
-}
-/* ***************|MEDIA QUERY|*************** */
-@media only screen and (max-width: 1040px) {
-    .center{
-        height: fit-content;
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-@media only screen and (max-width: 724px) {
-    .center{
-        height: fit-content;
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    input[type=text] {
-        width: 70%;
-    }
-    input[type=password] {
-        width: 70%;
-    }
-    input[type=email] {
-        width: 70%;
-    }
-}
-@media only screen and (max-width: 425px) {
-    .center{
-        height: fit-content;
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-    }
 }
